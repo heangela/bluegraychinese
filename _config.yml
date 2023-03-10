@@ -13,7 +13,7 @@ url: https://heangela.github.io
 # on GitHub Pages it is your github repository's name prefixed with a /
 baseurl: /bluegraychinese
 # location of code, the full url to your github repository
-source-code: https://github.com/heangela/bluegraychinese
+source-code: "https://github.com/heangela/bluegraychinese"
 
 ##########
 # SITE SETTINGS
@@ -33,7 +33,7 @@ author: "Alex Jay, Angela He"
 
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: consultation2
+metadata: "consultation2"
 
 ##########
 # Site/Organization Branding 
