@@ -6,7 +6,7 @@
 
 ##########
 # URL VARIABLES [optional if using GitHub Pages!]
-
+#
 # url is site domain, full URL to the production location of your collection
 url: https://heangela.github.io
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
@@ -17,7 +17,7 @@ source-code: "https://github.com/heangela/bluegraychinese"
 
 ##########
 # SITE SETTINGS
-
+#
 # title of site appears in banner
 title: "The Blue, The Gray and the Chinese"
 # tagline, a short phrase that will appear throughout the site in the top banner
@@ -30,7 +30,7 @@ author: "Alex Jay, Angela He"
 
 ##########
 # COLLECTION SETTINGS
-
+#
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
 metadata: "consultation2"
@@ -38,37 +38,32 @@ metadata: "consultation2"
 ##########
 # Site/Organization Branding 
 #   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
-
+#
 # organization-name: "Center for Digital Inquiry and Learning (CDIL)"
 # organization-link: https://cdil.lib.uidaho.edu/
 # organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
 # organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
-
-
-
 ##########
 # GOOGLE SERVICES [optional!]
-
+#
 # leave these blank or comment out to NOT include google code. See docs/google.md
-
+#
 # Add your google-analytics-id to automatically add the embed code, e.g. "UA-76328753-1"
 # google-analytics-id:
 # to populate a Google CSE add the id, e.g. "002151703305773322890:1pu3smhw1t8"
 # google-cse-id: 
-
 ##########
 # ROBOTS EXCLUDE
-
+#
 # set noindex to true if you do NOT want Google to index your site
 # noindex: true 
-
 ##########
 # BUILD SETTINGS 
-
+#
 # Note: use environment variable on build command to include analytics
 # JEKYLL_ENV=production jekyll build
 # (this is done automatically by gh-pages build)
-
+#
 # ignore stuff
 exclude: [docs/, Rakefile, README.md, LICENSE]
 # compress CSS output
